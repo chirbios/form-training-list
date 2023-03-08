@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+h1,
+p {
+  font-family: Lato;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input {
+  height: 30px;
+  font-size: 14px;
+}
+input[type='date'][name='inputDate'] {
+  height: 32px;
+}
+input[type='number'][name='inputValue'] {
+  width: 100px;
+  text-align: center;
+}
+button {
+  height: 36px;
+}
+.form {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.formDate {
+  margin: 0 2px;
+}
+.formValue {
+  margin: 0 2px;
+}
+span.remove {
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+}
+table th {
+  height: 32px;
+}
+table td {
+  height: 18px;
+  text-align: center;
+}
